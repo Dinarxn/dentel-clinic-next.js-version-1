@@ -240,3 +240,4 @@ This website uses realistic but demonstration-only content for **Lumière Dental
 ## 📄 License
 
 This project is licensed under the [MIT License](LICENSE). Built for **Naxmedia** demonstration purposes.
+
