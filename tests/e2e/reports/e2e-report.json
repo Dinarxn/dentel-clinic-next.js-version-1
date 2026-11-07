@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-11-07T17:09:11.986Z",
+  "timestamp": "2026-11-07T17:46:38.501Z",
   "environment": {
     "nodeVersion": "v25.8.0",
     "platform": "win32"
@@ -14,7 +14,7 @@
     "totalPassed": 26,
     "totalFailed": 0,
     "totalPending": 0,
-    "totalDuration": 31.74
+    "totalDuration": 29.37
   },
   "suites": [
     {
@@ -24,12 +24,12 @@
       "passed": 12,
       "failed": 0,
       "pending": 0,
-      "duration": 15.74,
+      "duration": 16.99,
       "results": [
         {
           "title": "Theme Tokens: 60/30/10 colour system defined in globals.css",
           "status": "passed",
-          "duration": 0.82,
+          "duration": 1.09,
           "metadata": {
             "milestone": "M1",
             "tier": 1,
@@ -39,7 +39,7 @@
         {
           "title": "Clinic Config: Single source of truth structure and Bandra West identity",
           "status": "passed",
-          "duration": 0.97,
+          "duration": 1.04,
           "metadata": {
             "milestone": "M1",
             "tier": 1,
@@ -49,7 +49,7 @@
         {
           "title": "Clinic Config: Catalog contains 6 comprehensive treatment definitions",
           "status": "passed",
-          "duration": 0.73,
+          "duration": 0.82,
           "metadata": {
             "milestone": "M1",
             "tier": 1,
@@ -59,7 +59,7 @@
         {
           "title": "Contact Links: Direct tel: dialer link matches +919820012345 format",
           "status": "passed",
-          "duration": 0.84,
+          "duration": 1.19,
           "metadata": {
             "milestone": "M1",
             "tier": 1,
@@ -69,7 +69,7 @@
         {
           "title": "Contact Links: WhatsApp universal link includes prefilled inquiry text",
           "status": "passed",
-          "duration": 0.7,
+          "duration": 0.74,
           "metadata": {
             "milestone": "M1",
             "tier": 1,
@@ -79,7 +79,7 @@
         {
           "title": "Layout Architecture: Root layout container applies pb-24 md:pb-0 padding",
           "status": "passed",
-          "duration": 1.21,
+          "duration": 0.43,
           "metadata": {
             "milestone": "M1",
             "tier": 1,
@@ -89,7 +89,7 @@
         {
           "title": "SEO Architecture: Dynamic sitemap.ts and robots.ts exist and conform to Next.js 15",
           "status": "passed",
-          "duration": 1.62,
+          "duration": 0.89,
           "metadata": {
             "milestone": "M1",
             "tier": 1,
@@ -99,7 +99,7 @@
         {
           "title": "Mobile UX: Fixed bottom action bar implements Call, WhatsApp, and Appointment actions",
           "status": "passed",
-          "duration": 0.82,
+          "duration": 0.49,
           "metadata": {
             "milestone": "M2",
             "tier": 1,
@@ -109,7 +109,7 @@
         {
           "title": "Navigation: Premium Sticky Navbar includes logo, navigation links, and demo banner",
           "status": "passed",
-          "duration": 0.54,
+          "duration": 0.51,
           "metadata": {
             "milestone": "M2",
             "tier": 1,
@@ -119,7 +119,7 @@
         {
           "title": "Home Page: 10 structured sections implemented in page.tsx",
           "status": "passed",
-          "duration": 0.71,
+          "duration": 1.43,
           "metadata": {
             "milestone": "M3",
             "tier": 1,
@@ -129,7 +129,7 @@
         {
           "title": "Route Structure: All 7 required pages exist and adhere to App Router conventions",
           "status": "passed",
-          "duration": 4.92,
+          "duration": 5.94,
           "metadata": {
             "milestone": "M4",
             "tier": 1,
@@ -139,7 +139,7 @@
         {
           "title": "Form Architecture: Appointment inquiry form contains all required fields",
           "status": "passed",
-          "duration": 0.57,
+          "duration": 0.81,
           "metadata": {
             "milestone": "M4",
             "tier": 1,
@@ -155,12 +155,12 @@
       "passed": 7,
       "failed": 0,
       "pending": 0,
-      "duration": 5.57,
+      "duration": 5.15,
       "results": [
         {
           "title": "Mobile Viewport Safety: pb-24 collision prevention and overflow-x prevention",
           "status": "passed",
-          "duration": 0.6,
+          "duration": 0.76,
           "metadata": {
             "milestone": "M1",
             "tier": 2,
@@ -170,7 +170,7 @@
         {
           "title": "Phone Validation: Strict 10-digit Indian mobile regex (/^[6-9]\\d{9}$/)",
           "status": "passed",
-          "duration": 0.47,
+          "duration": 0.41,
           "metadata": {
             "milestone": "M1",
             "tier": 2,
@@ -180,7 +180,7 @@
         {
           "title": "Date Validation: Min-date validation rejects past dates and accepts today/future",
           "status": "passed",
-          "duration": 0.27,
+          "duration": 0.24,
           "metadata": {
             "milestone": "M1",
             "tier": 2,
@@ -190,7 +190,7 @@
         {
           "title": "Dynamic Routing: Invalid treatment slug triggers Next.js notFound()",
           "status": "passed",
-          "duration": 1.31,
+          "duration": 1.25,
           "metadata": {
             "milestone": "M4",
             "tier": 2,
@@ -200,7 +200,7 @@
         {
           "title": "Integrity Shield: Demonstration notices present across Navbar, Footer, Doctor, and Form",
           "status": "passed",
-          "duration": 0.62,
+          "duration": 0.56,
           "metadata": {
             "milestone": "M1",
             "tier": 2,
@@ -210,7 +210,7 @@
         {
           "title": "Integrity Shield: Prohibition of fake patient reviews, fake stars, and fake bookings",
           "status": "passed",
-          "duration": 1.42,
+          "duration": 1.25,
           "metadata": {
             "milestone": "M1",
             "tier": 2,
@@ -220,7 +220,7 @@
         {
           "title": "Form Submission: Valid submission triggers Demo Validation Modal, not fake booking",
           "status": "passed",
-          "duration": 0.43,
+          "duration": 0.27,
           "metadata": {
             "milestone": "M1",
             "tier": 2,
@@ -236,12 +236,12 @@
       "passed": 4,
       "failed": 0,
       "pending": 0,
-      "duration": 6.17,
+      "duration": 2.67,
       "results": [
         {
           "title": "Cross-Route Consistency: Treatment slugs match catalog and dynamic route contract",
           "status": "passed",
-          "duration": 2.99,
+          "duration": 1.19,
           "metadata": {
             "milestone": "M4",
             "tier": 3,
@@ -251,7 +251,7 @@
         {
           "title": "Cross-Page Consistency: Doctor identity and demo disclaimer aligned between Home and /doctor",
           "status": "passed",
-          "duration": 1.91,
+          "duration": 0.78,
           "metadata": {
             "milestone": "M4",
             "tier": 3,
@@ -261,7 +261,7 @@
         {
           "title": "Rebranding Architecture: Updating clinicConfig updates all phone, WhatsApp, and identity links",
           "status": "passed",
-          "duration": 0.19,
+          "duration": 0.09,
           "metadata": {
             "milestone": "M1",
             "tier": 3,
@@ -271,7 +271,7 @@
         {
           "title": "Navigation State: Mobile drawer supports accessible open/close state transitions",
           "status": "passed",
-          "duration": 0.74,
+          "duration": 0.44,
           "metadata": {
             "milestone": "M2",
             "tier": 3,
@@ -287,12 +287,12 @@
       "passed": 3,
       "failed": 0,
       "pending": 0,
-      "duration": 3.71,
+      "duration": 3.88,
       "results": [
         {
           "title": "Scenario 1: Full Patient Journey — Home -> Veneers -> Detail -> Consultation -> Demo Modal",
           "status": "passed",
-          "duration": 1.68,
+          "duration": 2.17,
           "metadata": {
             "milestone": "M1",
             "tier": 4,
@@ -302,7 +302,7 @@
         {
           "title": "Scenario 2: Mobile Emergency Journey — 390px Viewport -> Fixed Bar -> tel:+919820012345",
           "status": "passed",
-          "duration": 1.07,
+          "duration": 0.87,
           "metadata": {
             "milestone": "M1",
             "tier": 4,
@@ -312,7 +312,7 @@
         {
           "title": "Scenario 3: WhatsApp Concierge Journey — Instant Lead Capture with Prefilled Intent",
           "status": "passed",
-          "duration": 0.68,
+          "duration": 0.58,
           "metadata": {
             "milestone": "M1",
             "tier": 4,
