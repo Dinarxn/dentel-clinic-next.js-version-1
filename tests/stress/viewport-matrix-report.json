@@ -1,0 +1,1530 @@
+{
+  "timestamp": "2026-11-07T16:52:52.781Z",
+  "total": 169,
+  "passed": 169,
+  "failed": 0,
+  "passRate": "100.0%",
+  "results": [
+    {
+      "id": "LAYOUT-COLLISION-320",
+      "title": "Mobile Viewport Clearance (pb-24) at 320px",
+      "page": "RootLayout",
+      "viewportWidth": 320,
+      "pass": true,
+      "details": "Root layout sets pb-24 padding on viewports <768px, providing 96px clearance above fixed MobileBottomBar.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "LAYOUT-COLLISION-360",
+      "title": "Mobile Viewport Clearance (pb-24) at 360px",
+      "page": "RootLayout",
+      "viewportWidth": 360,
+      "pass": true,
+      "details": "Root layout sets pb-24 padding on viewports <768px, providing 96px clearance above fixed MobileBottomBar.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "LAYOUT-COLLISION-375",
+      "title": "Mobile Viewport Clearance (pb-24) at 375px",
+      "page": "RootLayout",
+      "viewportWidth": 375,
+      "pass": true,
+      "details": "Root layout sets pb-24 padding on viewports <768px, providing 96px clearance above fixed MobileBottomBar.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "LAYOUT-COLLISION-390",
+      "title": "Mobile Viewport Clearance (pb-24) at 390px",
+      "page": "RootLayout",
+      "viewportWidth": 390,
+      "pass": true,
+      "details": "Root layout sets pb-24 padding on viewports <768px, providing 96px clearance above fixed MobileBottomBar.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "LAYOUT-COLLISION-414",
+      "title": "Mobile Viewport Clearance (pb-24) at 414px",
+      "page": "RootLayout",
+      "viewportWidth": 414,
+      "pass": true,
+      "details": "Root layout sets pb-24 padding on viewports <768px, providing 96px clearance above fixed MobileBottomBar.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "LAYOUT-COLLISION-430",
+      "title": "Mobile Viewport Clearance (pb-24) at 430px",
+      "page": "RootLayout",
+      "viewportWidth": 430,
+      "pass": true,
+      "details": "Root layout sets pb-24 padding on viewports <768px, providing 96px clearance above fixed MobileBottomBar.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "LAYOUT-COLLISION-768",
+      "title": "Desktop Viewport Clean Offset (md:pb-0) at 768px",
+      "page": "RootLayout",
+      "viewportWidth": 768,
+      "pass": true,
+      "details": "Root layout resets padding to md:pb-0 on tablet/desktop viewports (>=768px) where bottom bar is hidden.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "LAYOUT-COLLISION-1024",
+      "title": "Desktop Viewport Clean Offset (md:pb-0) at 1024px",
+      "page": "RootLayout",
+      "viewportWidth": 1024,
+      "pass": true,
+      "details": "Root layout resets padding to md:pb-0 on tablet/desktop viewports (>=768px) where bottom bar is hidden.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "LAYOUT-COLLISION-1440",
+      "title": "Desktop Viewport Clean Offset (md:pb-0) at 1440px",
+      "page": "RootLayout",
+      "viewportWidth": 1440,
+      "pass": true,
+      "details": "Root layout resets padding to md:pb-0 on tablet/desktop viewports (>=768px) where bottom bar is hidden.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "LAYOUT-VIEWPORT-META",
+      "title": "Next.js 15 Viewport Configuration Contract",
+      "page": "RootLayout",
+      "viewportWidth": "all",
+      "pass": true,
+      "details": "RootLayout exports standard Viewport object with device-width and initial-scale 1.0.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "ABOUT-OVERFLOW-320",
+      "title": "Zero Horizontal Overflow at 320px",
+      "page": "/about",
+      "viewportWidth": 320,
+      "pass": true,
+      "details": "Container padding px-4 ensures 16px lateral safety buffer; breadcrumbs use overflow-x-auto; no fixed widths exceed viewport.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "ABOUT-COLLAPSE-320",
+      "title": "Fluid Column Collapse at 320px (1 column stack for heritage, pillars, and sterilization)",
+      "page": "/about",
+      "viewportWidth": 320,
+      "pass": true,
+      "details": "Grid classes (grid-cols-1 md:grid-cols-2/3 lg:grid-cols-12) correctly collapse according to Tailwind breakpoints.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "ABOUT-IMAGE-320",
+      "title": "Image Aspect Ratio Preservation at 320px",
+      "page": "/about",
+      "viewportWidth": 320,
+      "pass": true,
+      "details": "Images use aspect-[4/3] and aspect-[4/5] with Next.js fill and object-cover to prevent layout shift or distortion.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "ABOUT-OVERFLOW-360",
+      "title": "Zero Horizontal Overflow at 360px",
+      "page": "/about",
+      "viewportWidth": 360,
+      "pass": true,
+      "details": "Container padding px-4 ensures 16px lateral safety buffer; breadcrumbs use overflow-x-auto; no fixed widths exceed viewport.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "ABOUT-COLLAPSE-360",
+      "title": "Fluid Column Collapse at 360px (1 column stack for heritage, pillars, and sterilization)",
+      "page": "/about",
+      "viewportWidth": 360,
+      "pass": true,
+      "details": "Grid classes (grid-cols-1 md:grid-cols-2/3 lg:grid-cols-12) correctly collapse according to Tailwind breakpoints.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "ABOUT-IMAGE-360",
+      "title": "Image Aspect Ratio Preservation at 360px",
+      "page": "/about",
+      "viewportWidth": 360,
+      "pass": true,
+      "details": "Images use aspect-[4/3] and aspect-[4/5] with Next.js fill and object-cover to prevent layout shift or distortion.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "ABOUT-OVERFLOW-375",
+      "title": "Zero Horizontal Overflow at 375px",
+      "page": "/about",
+      "viewportWidth": 375,
+      "pass": true,
+      "details": "Container padding px-4 ensures 16px lateral safety buffer; breadcrumbs use overflow-x-auto; no fixed widths exceed viewport.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "ABOUT-COLLAPSE-375",
+      "title": "Fluid Column Collapse at 375px (1 column stack for heritage, pillars, and sterilization)",
+      "page": "/about",
+      "viewportWidth": 375,
+      "pass": true,
+      "details": "Grid classes (grid-cols-1 md:grid-cols-2/3 lg:grid-cols-12) correctly collapse according to Tailwind breakpoints.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "ABOUT-IMAGE-375",
+      "title": "Image Aspect Ratio Preservation at 375px",
+      "page": "/about",
+      "viewportWidth": 375,
+      "pass": true,
+      "details": "Images use aspect-[4/3] and aspect-[4/5] with Next.js fill and object-cover to prevent layout shift or distortion.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "ABOUT-OVERFLOW-390",
+      "title": "Zero Horizontal Overflow at 390px",
+      "page": "/about",
+      "viewportWidth": 390,
+      "pass": true,
+      "details": "Container padding px-4 ensures 16px lateral safety buffer; breadcrumbs use overflow-x-auto; no fixed widths exceed viewport.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "ABOUT-COLLAPSE-390",
+      "title": "Fluid Column Collapse at 390px (1 column stack for heritage, pillars, and sterilization)",
+      "page": "/about",
+      "viewportWidth": 390,
+      "pass": true,
+      "details": "Grid classes (grid-cols-1 md:grid-cols-2/3 lg:grid-cols-12) correctly collapse according to Tailwind breakpoints.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "ABOUT-IMAGE-390",
+      "title": "Image Aspect Ratio Preservation at 390px",
+      "page": "/about",
+      "viewportWidth": 390,
+      "pass": true,
+      "details": "Images use aspect-[4/3] and aspect-[4/5] with Next.js fill and object-cover to prevent layout shift or distortion.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "ABOUT-OVERFLOW-414",
+      "title": "Zero Horizontal Overflow at 414px",
+      "page": "/about",
+      "viewportWidth": 414,
+      "pass": true,
+      "details": "Container padding px-4 ensures 16px lateral safety buffer; breadcrumbs use overflow-x-auto; no fixed widths exceed viewport.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "ABOUT-COLLAPSE-414",
+      "title": "Fluid Column Collapse at 414px (1 column stack for heritage, pillars, and sterilization)",
+      "page": "/about",
+      "viewportWidth": 414,
+      "pass": true,
+      "details": "Grid classes (grid-cols-1 md:grid-cols-2/3 lg:grid-cols-12) correctly collapse according to Tailwind breakpoints.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "ABOUT-IMAGE-414",
+      "title": "Image Aspect Ratio Preservation at 414px",
+      "page": "/about",
+      "viewportWidth": 414,
+      "pass": true,
+      "details": "Images use aspect-[4/3] and aspect-[4/5] with Next.js fill and object-cover to prevent layout shift or distortion.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "ABOUT-OVERFLOW-430",
+      "title": "Zero Horizontal Overflow at 430px",
+      "page": "/about",
+      "viewportWidth": 430,
+      "pass": true,
+      "details": "Container padding px-4 ensures 16px lateral safety buffer; breadcrumbs use overflow-x-auto; no fixed widths exceed viewport.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "ABOUT-COLLAPSE-430",
+      "title": "Fluid Column Collapse at 430px (1 column stack for heritage, pillars, and sterilization)",
+      "page": "/about",
+      "viewportWidth": 430,
+      "pass": true,
+      "details": "Grid classes (grid-cols-1 md:grid-cols-2/3 lg:grid-cols-12) correctly collapse according to Tailwind breakpoints.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "ABOUT-IMAGE-430",
+      "title": "Image Aspect Ratio Preservation at 430px",
+      "page": "/about",
+      "viewportWidth": 430,
+      "pass": true,
+      "details": "Images use aspect-[4/3] and aspect-[4/5] with Next.js fill and object-cover to prevent layout shift or distortion.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "ABOUT-OVERFLOW-768",
+      "title": "Zero Horizontal Overflow at 768px",
+      "page": "/about",
+      "viewportWidth": 768,
+      "pass": true,
+      "details": "Container padding px-4 ensures 16px lateral safety buffer; breadcrumbs use overflow-x-auto; no fixed widths exceed viewport.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "ABOUT-COLLAPSE-768",
+      "title": "Fluid Column Collapse at 768px (2 columns for sterilization, 3 columns for pillars)",
+      "page": "/about",
+      "viewportWidth": 768,
+      "pass": true,
+      "details": "Grid classes (grid-cols-1 md:grid-cols-2/3 lg:grid-cols-12) correctly collapse according to Tailwind breakpoints.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "ABOUT-IMAGE-768",
+      "title": "Image Aspect Ratio Preservation at 768px",
+      "page": "/about",
+      "viewportWidth": 768,
+      "pass": true,
+      "details": "Images use aspect-[4/3] and aspect-[4/5] with Next.js fill and object-cover to prevent layout shift or distortion.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "ABOUT-OVERFLOW-1024",
+      "title": "Zero Horizontal Overflow at 1024px",
+      "page": "/about",
+      "viewportWidth": 1024,
+      "pass": true,
+      "details": "Container padding px-4 ensures 16px lateral safety buffer; breadcrumbs use overflow-x-auto; no fixed widths exceed viewport.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "ABOUT-COLLAPSE-1024",
+      "title": "Fluid Column Collapse at 1024px (Full 12-col asymmetric split, 3-col pillars, 3-col sterilization)",
+      "page": "/about",
+      "viewportWidth": 1024,
+      "pass": true,
+      "details": "Grid classes (grid-cols-1 md:grid-cols-2/3 lg:grid-cols-12) correctly collapse according to Tailwind breakpoints.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "ABOUT-IMAGE-1024",
+      "title": "Image Aspect Ratio Preservation at 1024px",
+      "page": "/about",
+      "viewportWidth": 1024,
+      "pass": true,
+      "details": "Images use aspect-[4/3] and aspect-[4/5] with Next.js fill and object-cover to prevent layout shift or distortion.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "ABOUT-OVERFLOW-1440",
+      "title": "Zero Horizontal Overflow at 1440px",
+      "page": "/about",
+      "viewportWidth": 1440,
+      "pass": true,
+      "details": "Container padding px-4 ensures 16px lateral safety buffer; breadcrumbs use overflow-x-auto; no fixed widths exceed viewport.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "ABOUT-COLLAPSE-1440",
+      "title": "Fluid Column Collapse at 1440px (Full 12-col asymmetric split, 3-col pillars, 3-col sterilization)",
+      "page": "/about",
+      "viewportWidth": 1440,
+      "pass": true,
+      "details": "Grid classes (grid-cols-1 md:grid-cols-2/3 lg:grid-cols-12) correctly collapse according to Tailwind breakpoints.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "ABOUT-IMAGE-1440",
+      "title": "Image Aspect Ratio Preservation at 1440px",
+      "page": "/about",
+      "viewportWidth": 1440,
+      "pass": true,
+      "details": "Images use aspect-[4/3] and aspect-[4/5] with Next.js fill and object-cover to prevent layout shift or distortion.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "TREATMENTS-OVERFLOW-320",
+      "title": "Zero Horizontal Overflow at 320px",
+      "page": "/treatments",
+      "viewportWidth": 320,
+      "pass": true,
+      "details": "Category filter pills wrap gracefully with flex-wrap; treatments container has px-4; zero fixed width overflow.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "TREATMENTS-COLLAPSE-320",
+      "title": "Fluid Column Collapse at 320px (1 column TreatmentCard stack)",
+      "page": "/treatments",
+      "viewportWidth": 320,
+      "pass": true,
+      "details": "Treatments grid uses grid-cols-1 md:grid-cols-2 lg:grid-cols-3.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "TREATMENTS-OVERFLOW-360",
+      "title": "Zero Horizontal Overflow at 360px",
+      "page": "/treatments",
+      "viewportWidth": 360,
+      "pass": true,
+      "details": "Category filter pills wrap gracefully with flex-wrap; treatments container has px-4; zero fixed width overflow.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "TREATMENTS-COLLAPSE-360",
+      "title": "Fluid Column Collapse at 360px (1 column TreatmentCard stack)",
+      "page": "/treatments",
+      "viewportWidth": 360,
+      "pass": true,
+      "details": "Treatments grid uses grid-cols-1 md:grid-cols-2 lg:grid-cols-3.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "TREATMENTS-OVERFLOW-375",
+      "title": "Zero Horizontal Overflow at 375px",
+      "page": "/treatments",
+      "viewportWidth": 375,
+      "pass": true,
+      "details": "Category filter pills wrap gracefully with flex-wrap; treatments container has px-4; zero fixed width overflow.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "TREATMENTS-COLLAPSE-375",
+      "title": "Fluid Column Collapse at 375px (1 column TreatmentCard stack)",
+      "page": "/treatments",
+      "viewportWidth": 375,
+      "pass": true,
+      "details": "Treatments grid uses grid-cols-1 md:grid-cols-2 lg:grid-cols-3.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "TREATMENTS-OVERFLOW-390",
+      "title": "Zero Horizontal Overflow at 390px",
+      "page": "/treatments",
+      "viewportWidth": 390,
+      "pass": true,
+      "details": "Category filter pills wrap gracefully with flex-wrap; treatments container has px-4; zero fixed width overflow.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "TREATMENTS-COLLAPSE-390",
+      "title": "Fluid Column Collapse at 390px (1 column TreatmentCard stack)",
+      "page": "/treatments",
+      "viewportWidth": 390,
+      "pass": true,
+      "details": "Treatments grid uses grid-cols-1 md:grid-cols-2 lg:grid-cols-3.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "TREATMENTS-OVERFLOW-414",
+      "title": "Zero Horizontal Overflow at 414px",
+      "page": "/treatments",
+      "viewportWidth": 414,
+      "pass": true,
+      "details": "Category filter pills wrap gracefully with flex-wrap; treatments container has px-4; zero fixed width overflow.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "TREATMENTS-COLLAPSE-414",
+      "title": "Fluid Column Collapse at 414px (1 column TreatmentCard stack)",
+      "page": "/treatments",
+      "viewportWidth": 414,
+      "pass": true,
+      "details": "Treatments grid uses grid-cols-1 md:grid-cols-2 lg:grid-cols-3.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "TREATMENTS-OVERFLOW-430",
+      "title": "Zero Horizontal Overflow at 430px",
+      "page": "/treatments",
+      "viewportWidth": 430,
+      "pass": true,
+      "details": "Category filter pills wrap gracefully with flex-wrap; treatments container has px-4; zero fixed width overflow.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "TREATMENTS-COLLAPSE-430",
+      "title": "Fluid Column Collapse at 430px (1 column TreatmentCard stack)",
+      "page": "/treatments",
+      "viewportWidth": 430,
+      "pass": true,
+      "details": "Treatments grid uses grid-cols-1 md:grid-cols-2 lg:grid-cols-3.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "TREATMENTS-OVERFLOW-768",
+      "title": "Zero Horizontal Overflow at 768px",
+      "page": "/treatments",
+      "viewportWidth": 768,
+      "pass": true,
+      "details": "Category filter pills wrap gracefully with flex-wrap; treatments container has px-4; zero fixed width overflow.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "TREATMENTS-COLLAPSE-768",
+      "title": "Fluid Column Collapse at 768px (2 columns TreatmentCard grid)",
+      "page": "/treatments",
+      "viewportWidth": 768,
+      "pass": true,
+      "details": "Treatments grid uses grid-cols-1 md:grid-cols-2 lg:grid-cols-3.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "TREATMENTS-OVERFLOW-1024",
+      "title": "Zero Horizontal Overflow at 1024px",
+      "page": "/treatments",
+      "viewportWidth": 1024,
+      "pass": true,
+      "details": "Category filter pills wrap gracefully with flex-wrap; treatments container has px-4; zero fixed width overflow.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "TREATMENTS-COLLAPSE-1024",
+      "title": "Fluid Column Collapse at 1024px (3 columns TreatmentCard grid)",
+      "page": "/treatments",
+      "viewportWidth": 1024,
+      "pass": true,
+      "details": "Treatments grid uses grid-cols-1 md:grid-cols-2 lg:grid-cols-3.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "TREATMENTS-OVERFLOW-1440",
+      "title": "Zero Horizontal Overflow at 1440px",
+      "page": "/treatments",
+      "viewportWidth": 1440,
+      "pass": true,
+      "details": "Category filter pills wrap gracefully with flex-wrap; treatments container has px-4; zero fixed width overflow.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "TREATMENTS-COLLAPSE-1440",
+      "title": "Fluid Column Collapse at 1440px (3 columns TreatmentCard grid)",
+      "page": "/treatments",
+      "viewportWidth": 1440,
+      "pass": true,
+      "details": "Treatments grid uses grid-cols-1 md:grid-cols-2 lg:grid-cols-3.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "SLUG-OVERFLOW-320",
+      "title": "Zero Horizontal Overflow at 320px",
+      "page": "/treatments/[slug]",
+      "viewportWidth": 320,
+      "pass": true,
+      "details": "Dynamic treatment details adhere to container boundary px-4; breadcrumbs scroll horizontally; metrics stack comfortably.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "SLUG-COLLAPSE-320",
+      "title": "Fluid Column Collapse at 320px (1 column stack for hero, quick metrics, steps, candidacy, benefits, recovery, related)",
+      "page": "/treatments/[slug]",
+      "viewportWidth": 320,
+      "pass": true,
+      "details": "Multi-section layout features appropriate responsive grid definitions across all breakpoints.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "SLUG-IMAGE-320",
+      "title": "Treatment Hero Image Aspect Ratio at 320px",
+      "page": "/treatments/[slug]",
+      "viewportWidth": 320,
+      "pass": true,
+      "details": "Hero image wrapped in aspect-[4/3] rounded-2xl container with Next.js fill and object-cover.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "SLUG-OVERFLOW-360",
+      "title": "Zero Horizontal Overflow at 360px",
+      "page": "/treatments/[slug]",
+      "viewportWidth": 360,
+      "pass": true,
+      "details": "Dynamic treatment details adhere to container boundary px-4; breadcrumbs scroll horizontally; metrics stack comfortably.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "SLUG-COLLAPSE-360",
+      "title": "Fluid Column Collapse at 360px (1 column stack for hero, quick metrics, steps, candidacy, benefits, recovery, related)",
+      "page": "/treatments/[slug]",
+      "viewportWidth": 360,
+      "pass": true,
+      "details": "Multi-section layout features appropriate responsive grid definitions across all breakpoints.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "SLUG-IMAGE-360",
+      "title": "Treatment Hero Image Aspect Ratio at 360px",
+      "page": "/treatments/[slug]",
+      "viewportWidth": 360,
+      "pass": true,
+      "details": "Hero image wrapped in aspect-[4/3] rounded-2xl container with Next.js fill and object-cover.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "SLUG-OVERFLOW-375",
+      "title": "Zero Horizontal Overflow at 375px",
+      "page": "/treatments/[slug]",
+      "viewportWidth": 375,
+      "pass": true,
+      "details": "Dynamic treatment details adhere to container boundary px-4; breadcrumbs scroll horizontally; metrics stack comfortably.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "SLUG-COLLAPSE-375",
+      "title": "Fluid Column Collapse at 375px (1 column stack for hero, quick metrics, steps, candidacy, benefits, recovery, related)",
+      "page": "/treatments/[slug]",
+      "viewportWidth": 375,
+      "pass": true,
+      "details": "Multi-section layout features appropriate responsive grid definitions across all breakpoints.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "SLUG-IMAGE-375",
+      "title": "Treatment Hero Image Aspect Ratio at 375px",
+      "page": "/treatments/[slug]",
+      "viewportWidth": 375,
+      "pass": true,
+      "details": "Hero image wrapped in aspect-[4/3] rounded-2xl container with Next.js fill and object-cover.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "SLUG-OVERFLOW-390",
+      "title": "Zero Horizontal Overflow at 390px",
+      "page": "/treatments/[slug]",
+      "viewportWidth": 390,
+      "pass": true,
+      "details": "Dynamic treatment details adhere to container boundary px-4; breadcrumbs scroll horizontally; metrics stack comfortably.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "SLUG-COLLAPSE-390",
+      "title": "Fluid Column Collapse at 390px (1 column stack for hero, quick metrics, steps, candidacy, benefits, recovery, related)",
+      "page": "/treatments/[slug]",
+      "viewportWidth": 390,
+      "pass": true,
+      "details": "Multi-section layout features appropriate responsive grid definitions across all breakpoints.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "SLUG-IMAGE-390",
+      "title": "Treatment Hero Image Aspect Ratio at 390px",
+      "page": "/treatments/[slug]",
+      "viewportWidth": 390,
+      "pass": true,
+      "details": "Hero image wrapped in aspect-[4/3] rounded-2xl container with Next.js fill and object-cover.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "SLUG-OVERFLOW-414",
+      "title": "Zero Horizontal Overflow at 414px",
+      "page": "/treatments/[slug]",
+      "viewportWidth": 414,
+      "pass": true,
+      "details": "Dynamic treatment details adhere to container boundary px-4; breadcrumbs scroll horizontally; metrics stack comfortably.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "SLUG-COLLAPSE-414",
+      "title": "Fluid Column Collapse at 414px (1 column stack for hero, quick metrics, steps, candidacy, benefits, recovery, related)",
+      "page": "/treatments/[slug]",
+      "viewportWidth": 414,
+      "pass": true,
+      "details": "Multi-section layout features appropriate responsive grid definitions across all breakpoints.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "SLUG-IMAGE-414",
+      "title": "Treatment Hero Image Aspect Ratio at 414px",
+      "page": "/treatments/[slug]",
+      "viewportWidth": 414,
+      "pass": true,
+      "details": "Hero image wrapped in aspect-[4/3] rounded-2xl container with Next.js fill and object-cover.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "SLUG-OVERFLOW-430",
+      "title": "Zero Horizontal Overflow at 430px",
+      "page": "/treatments/[slug]",
+      "viewportWidth": 430,
+      "pass": true,
+      "details": "Dynamic treatment details adhere to container boundary px-4; breadcrumbs scroll horizontally; metrics stack comfortably.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "SLUG-COLLAPSE-430",
+      "title": "Fluid Column Collapse at 430px (1 column stack for hero, quick metrics, steps, candidacy, benefits, recovery, related)",
+      "page": "/treatments/[slug]",
+      "viewportWidth": 430,
+      "pass": true,
+      "details": "Multi-section layout features appropriate responsive grid definitions across all breakpoints.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "SLUG-IMAGE-430",
+      "title": "Treatment Hero Image Aspect Ratio at 430px",
+      "page": "/treatments/[slug]",
+      "viewportWidth": 430,
+      "pass": true,
+      "details": "Hero image wrapped in aspect-[4/3] rounded-2xl container with Next.js fill and object-cover.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "SLUG-OVERFLOW-768",
+      "title": "Zero Horizontal Overflow at 768px",
+      "page": "/treatments/[slug]",
+      "viewportWidth": 768,
+      "pass": true,
+      "details": "Dynamic treatment details adhere to container boundary px-4; breadcrumbs scroll horizontally; metrics stack comfortably.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "SLUG-COLLAPSE-768",
+      "title": "Fluid Column Collapse at 768px (2 cols steps, 3 cols metrics/recovery/related, 1 col hero/candidacy)",
+      "page": "/treatments/[slug]",
+      "viewportWidth": 768,
+      "pass": true,
+      "details": "Multi-section layout features appropriate responsive grid definitions across all breakpoints.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "SLUG-IMAGE-768",
+      "title": "Treatment Hero Image Aspect Ratio at 768px",
+      "page": "/treatments/[slug]",
+      "viewportWidth": 768,
+      "pass": true,
+      "details": "Hero image wrapped in aspect-[4/3] rounded-2xl container with Next.js fill and object-cover.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "SLUG-OVERFLOW-1024",
+      "title": "Zero Horizontal Overflow at 1024px",
+      "page": "/treatments/[slug]",
+      "viewportWidth": 1024,
+      "pass": true,
+      "details": "Dynamic treatment details adhere to container boundary px-4; breadcrumbs scroll horizontally; metrics stack comfortably.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "SLUG-COLLAPSE-1024",
+      "title": "Fluid Column Collapse at 1024px (Full desktop 12-col hero split, 2-col candidacy/benefits, 3-col recovery/related)",
+      "page": "/treatments/[slug]",
+      "viewportWidth": 1024,
+      "pass": true,
+      "details": "Multi-section layout features appropriate responsive grid definitions across all breakpoints.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "SLUG-IMAGE-1024",
+      "title": "Treatment Hero Image Aspect Ratio at 1024px",
+      "page": "/treatments/[slug]",
+      "viewportWidth": 1024,
+      "pass": true,
+      "details": "Hero image wrapped in aspect-[4/3] rounded-2xl container with Next.js fill and object-cover.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "SLUG-OVERFLOW-1440",
+      "title": "Zero Horizontal Overflow at 1440px",
+      "page": "/treatments/[slug]",
+      "viewportWidth": 1440,
+      "pass": true,
+      "details": "Dynamic treatment details adhere to container boundary px-4; breadcrumbs scroll horizontally; metrics stack comfortably.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "SLUG-COLLAPSE-1440",
+      "title": "Fluid Column Collapse at 1440px (Full desktop 12-col hero split, 2-col candidacy/benefits, 3-col recovery/related)",
+      "page": "/treatments/[slug]",
+      "viewportWidth": 1440,
+      "pass": true,
+      "details": "Multi-section layout features appropriate responsive grid definitions across all breakpoints.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "SLUG-IMAGE-1440",
+      "title": "Treatment Hero Image Aspect Ratio at 1440px",
+      "page": "/treatments/[slug]",
+      "viewportWidth": 1440,
+      "pass": true,
+      "details": "Hero image wrapped in aspect-[4/3] rounded-2xl container with Next.js fill and object-cover.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "DOCTOR-OVERFLOW-320",
+      "title": "Zero Horizontal Overflow at 320px",
+      "page": "/doctor",
+      "viewportWidth": 320,
+      "pass": true,
+      "details": "Portrait container is max-w-md w-full; credentials pills wrap with flex-wrap; zero overflow.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "DOCTOR-COLLAPSE-320",
+      "title": "Fluid Column Collapse at 320px (1 column stack for hero, education, specialties)",
+      "page": "/doctor",
+      "viewportWidth": 320,
+      "pass": true,
+      "details": "Responsive grid tiers (grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3/12) maintain balance.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "DOCTOR-IMAGE-320",
+      "title": "Doctor Portrait Aspect Ratio at 320px",
+      "page": "/doctor",
+      "viewportWidth": 320,
+      "pass": true,
+      "details": "Doctor portrait utilizes aspect-[4/5] with object-cover object-top and responsive sizes attribute.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "DOCTOR-OVERFLOW-360",
+      "title": "Zero Horizontal Overflow at 360px",
+      "page": "/doctor",
+      "viewportWidth": 360,
+      "pass": true,
+      "details": "Portrait container is max-w-md w-full; credentials pills wrap with flex-wrap; zero overflow.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "DOCTOR-COLLAPSE-360",
+      "title": "Fluid Column Collapse at 360px (1 column stack for hero, education, specialties)",
+      "page": "/doctor",
+      "viewportWidth": 360,
+      "pass": true,
+      "details": "Responsive grid tiers (grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3/12) maintain balance.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "DOCTOR-IMAGE-360",
+      "title": "Doctor Portrait Aspect Ratio at 360px",
+      "page": "/doctor",
+      "viewportWidth": 360,
+      "pass": true,
+      "details": "Doctor portrait utilizes aspect-[4/5] with object-cover object-top and responsive sizes attribute.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "DOCTOR-OVERFLOW-375",
+      "title": "Zero Horizontal Overflow at 375px",
+      "page": "/doctor",
+      "viewportWidth": 375,
+      "pass": true,
+      "details": "Portrait container is max-w-md w-full; credentials pills wrap with flex-wrap; zero overflow.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "DOCTOR-COLLAPSE-375",
+      "title": "Fluid Column Collapse at 375px (1 column stack for hero, education, specialties)",
+      "page": "/doctor",
+      "viewportWidth": 375,
+      "pass": true,
+      "details": "Responsive grid tiers (grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3/12) maintain balance.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "DOCTOR-IMAGE-375",
+      "title": "Doctor Portrait Aspect Ratio at 375px",
+      "page": "/doctor",
+      "viewportWidth": 375,
+      "pass": true,
+      "details": "Doctor portrait utilizes aspect-[4/5] with object-cover object-top and responsive sizes attribute.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "DOCTOR-OVERFLOW-390",
+      "title": "Zero Horizontal Overflow at 390px",
+      "page": "/doctor",
+      "viewportWidth": 390,
+      "pass": true,
+      "details": "Portrait container is max-w-md w-full; credentials pills wrap with flex-wrap; zero overflow.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "DOCTOR-COLLAPSE-390",
+      "title": "Fluid Column Collapse at 390px (1 column stack for hero, education, specialties)",
+      "page": "/doctor",
+      "viewportWidth": 390,
+      "pass": true,
+      "details": "Responsive grid tiers (grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3/12) maintain balance.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "DOCTOR-IMAGE-390",
+      "title": "Doctor Portrait Aspect Ratio at 390px",
+      "page": "/doctor",
+      "viewportWidth": 390,
+      "pass": true,
+      "details": "Doctor portrait utilizes aspect-[4/5] with object-cover object-top and responsive sizes attribute.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "DOCTOR-OVERFLOW-414",
+      "title": "Zero Horizontal Overflow at 414px",
+      "page": "/doctor",
+      "viewportWidth": 414,
+      "pass": true,
+      "details": "Portrait container is max-w-md w-full; credentials pills wrap with flex-wrap; zero overflow.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "DOCTOR-COLLAPSE-414",
+      "title": "Fluid Column Collapse at 414px (1 column stack for hero, education, specialties)",
+      "page": "/doctor",
+      "viewportWidth": 414,
+      "pass": true,
+      "details": "Responsive grid tiers (grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3/12) maintain balance.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "DOCTOR-IMAGE-414",
+      "title": "Doctor Portrait Aspect Ratio at 414px",
+      "page": "/doctor",
+      "viewportWidth": 414,
+      "pass": true,
+      "details": "Doctor portrait utilizes aspect-[4/5] with object-cover object-top and responsive sizes attribute.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "DOCTOR-OVERFLOW-430",
+      "title": "Zero Horizontal Overflow at 430px",
+      "page": "/doctor",
+      "viewportWidth": 430,
+      "pass": true,
+      "details": "Portrait container is max-w-md w-full; credentials pills wrap with flex-wrap; zero overflow.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "DOCTOR-COLLAPSE-430",
+      "title": "Fluid Column Collapse at 430px (1 column stack for hero, education, specialties)",
+      "page": "/doctor",
+      "viewportWidth": 430,
+      "pass": true,
+      "details": "Responsive grid tiers (grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3/12) maintain balance.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "DOCTOR-IMAGE-430",
+      "title": "Doctor Portrait Aspect Ratio at 430px",
+      "page": "/doctor",
+      "viewportWidth": 430,
+      "pass": true,
+      "details": "Doctor portrait utilizes aspect-[4/5] with object-cover object-top and responsive sizes attribute.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "DOCTOR-OVERFLOW-768",
+      "title": "Zero Horizontal Overflow at 768px",
+      "page": "/doctor",
+      "viewportWidth": 768,
+      "pass": true,
+      "details": "Portrait container is max-w-md w-full; credentials pills wrap with flex-wrap; zero overflow.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "DOCTOR-COLLAPSE-768",
+      "title": "Fluid Column Collapse at 768px (2 cols education, 2 cols specialties, 1 col hero)",
+      "page": "/doctor",
+      "viewportWidth": 768,
+      "pass": true,
+      "details": "Responsive grid tiers (grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3/12) maintain balance.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "DOCTOR-IMAGE-768",
+      "title": "Doctor Portrait Aspect Ratio at 768px",
+      "page": "/doctor",
+      "viewportWidth": 768,
+      "pass": true,
+      "details": "Doctor portrait utilizes aspect-[4/5] with object-cover object-top and responsive sizes attribute.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "DOCTOR-OVERFLOW-1024",
+      "title": "Zero Horizontal Overflow at 1024px",
+      "page": "/doctor",
+      "viewportWidth": 1024,
+      "pass": true,
+      "details": "Portrait container is max-w-md w-full; credentials pills wrap with flex-wrap; zero overflow.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "DOCTOR-COLLAPSE-1024",
+      "title": "Fluid Column Collapse at 1024px (12-col hero split (5/7), 2-col education, 3-col specialties)",
+      "page": "/doctor",
+      "viewportWidth": 1024,
+      "pass": true,
+      "details": "Responsive grid tiers (grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3/12) maintain balance.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "DOCTOR-IMAGE-1024",
+      "title": "Doctor Portrait Aspect Ratio at 1024px",
+      "page": "/doctor",
+      "viewportWidth": 1024,
+      "pass": true,
+      "details": "Doctor portrait utilizes aspect-[4/5] with object-cover object-top and responsive sizes attribute.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "DOCTOR-OVERFLOW-1440",
+      "title": "Zero Horizontal Overflow at 1440px",
+      "page": "/doctor",
+      "viewportWidth": 1440,
+      "pass": true,
+      "details": "Portrait container is max-w-md w-full; credentials pills wrap with flex-wrap; zero overflow.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "DOCTOR-COLLAPSE-1440",
+      "title": "Fluid Column Collapse at 1440px (12-col hero split (5/7), 2-col education, 3-col specialties)",
+      "page": "/doctor",
+      "viewportWidth": 1440,
+      "pass": true,
+      "details": "Responsive grid tiers (grid-cols-1 sm:grid-cols-2 md:grid-cols-2 lg:grid-cols-3/12) maintain balance.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "DOCTOR-IMAGE-1440",
+      "title": "Doctor Portrait Aspect Ratio at 1440px",
+      "page": "/doctor",
+      "viewportWidth": 1440,
+      "pass": true,
+      "details": "Doctor portrait utilizes aspect-[4/5] with object-cover object-top and responsive sizes attribute.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "GALLERY-OVERFLOW-320",
+      "title": "Zero Horizontal Overflow at 320px",
+      "page": "/gallery",
+      "viewportWidth": 320,
+      "pass": true,
+      "details": "Gallery cards use relative w-full h-72 sm:h-80 with zero fixed overflowing dimensions.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "GALLERY-COLLAPSE-320",
+      "title": "Fluid Column Collapse at 320px (1 column gallery cards)",
+      "page": "/gallery",
+      "viewportWidth": 320,
+      "pass": true,
+      "details": "Gallery grid scales cleanly: grid-cols-1 sm:grid-cols-2 lg:grid-cols-3.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "GALLERY-IMAGE-320",
+      "title": "Image Dimensions & Lightbox Responsiveness at 320px",
+      "page": "/gallery",
+      "viewportWidth": 320,
+      "pass": true,
+      "details": "Gallery items scale h-72 on mobile to sm:h-80; Lightbox adapts viewport height h-[50vh] to sm:h-[60vh] with max-w-4xl.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "GALLERY-OVERFLOW-360",
+      "title": "Zero Horizontal Overflow at 360px",
+      "page": "/gallery",
+      "viewportWidth": 360,
+      "pass": true,
+      "details": "Gallery cards use relative w-full h-72 sm:h-80 with zero fixed overflowing dimensions.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "GALLERY-COLLAPSE-360",
+      "title": "Fluid Column Collapse at 360px (1 column gallery cards)",
+      "page": "/gallery",
+      "viewportWidth": 360,
+      "pass": true,
+      "details": "Gallery grid scales cleanly: grid-cols-1 sm:grid-cols-2 lg:grid-cols-3.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "GALLERY-IMAGE-360",
+      "title": "Image Dimensions & Lightbox Responsiveness at 360px",
+      "page": "/gallery",
+      "viewportWidth": 360,
+      "pass": true,
+      "details": "Gallery items scale h-72 on mobile to sm:h-80; Lightbox adapts viewport height h-[50vh] to sm:h-[60vh] with max-w-4xl.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "GALLERY-OVERFLOW-375",
+      "title": "Zero Horizontal Overflow at 375px",
+      "page": "/gallery",
+      "viewportWidth": 375,
+      "pass": true,
+      "details": "Gallery cards use relative w-full h-72 sm:h-80 with zero fixed overflowing dimensions.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "GALLERY-COLLAPSE-375",
+      "title": "Fluid Column Collapse at 375px (1 column gallery cards)",
+      "page": "/gallery",
+      "viewportWidth": 375,
+      "pass": true,
+      "details": "Gallery grid scales cleanly: grid-cols-1 sm:grid-cols-2 lg:grid-cols-3.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "GALLERY-IMAGE-375",
+      "title": "Image Dimensions & Lightbox Responsiveness at 375px",
+      "page": "/gallery",
+      "viewportWidth": 375,
+      "pass": true,
+      "details": "Gallery items scale h-72 on mobile to sm:h-80; Lightbox adapts viewport height h-[50vh] to sm:h-[60vh] with max-w-4xl.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "GALLERY-OVERFLOW-390",
+      "title": "Zero Horizontal Overflow at 390px",
+      "page": "/gallery",
+      "viewportWidth": 390,
+      "pass": true,
+      "details": "Gallery cards use relative w-full h-72 sm:h-80 with zero fixed overflowing dimensions.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "GALLERY-COLLAPSE-390",
+      "title": "Fluid Column Collapse at 390px (1 column gallery cards)",
+      "page": "/gallery",
+      "viewportWidth": 390,
+      "pass": true,
+      "details": "Gallery grid scales cleanly: grid-cols-1 sm:grid-cols-2 lg:grid-cols-3.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "GALLERY-IMAGE-390",
+      "title": "Image Dimensions & Lightbox Responsiveness at 390px",
+      "page": "/gallery",
+      "viewportWidth": 390,
+      "pass": true,
+      "details": "Gallery items scale h-72 on mobile to sm:h-80; Lightbox adapts viewport height h-[50vh] to sm:h-[60vh] with max-w-4xl.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "GALLERY-OVERFLOW-414",
+      "title": "Zero Horizontal Overflow at 414px",
+      "page": "/gallery",
+      "viewportWidth": 414,
+      "pass": true,
+      "details": "Gallery cards use relative w-full h-72 sm:h-80 with zero fixed overflowing dimensions.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "GALLERY-COLLAPSE-414",
+      "title": "Fluid Column Collapse at 414px (1 column gallery cards)",
+      "page": "/gallery",
+      "viewportWidth": 414,
+      "pass": true,
+      "details": "Gallery grid scales cleanly: grid-cols-1 sm:grid-cols-2 lg:grid-cols-3.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "GALLERY-IMAGE-414",
+      "title": "Image Dimensions & Lightbox Responsiveness at 414px",
+      "page": "/gallery",
+      "viewportWidth": 414,
+      "pass": true,
+      "details": "Gallery items scale h-72 on mobile to sm:h-80; Lightbox adapts viewport height h-[50vh] to sm:h-[60vh] with max-w-4xl.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "GALLERY-OVERFLOW-430",
+      "title": "Zero Horizontal Overflow at 430px",
+      "page": "/gallery",
+      "viewportWidth": 430,
+      "pass": true,
+      "details": "Gallery cards use relative w-full h-72 sm:h-80 with zero fixed overflowing dimensions.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "GALLERY-COLLAPSE-430",
+      "title": "Fluid Column Collapse at 430px (1 column gallery cards)",
+      "page": "/gallery",
+      "viewportWidth": 430,
+      "pass": true,
+      "details": "Gallery grid scales cleanly: grid-cols-1 sm:grid-cols-2 lg:grid-cols-3.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "GALLERY-IMAGE-430",
+      "title": "Image Dimensions & Lightbox Responsiveness at 430px",
+      "page": "/gallery",
+      "viewportWidth": 430,
+      "pass": true,
+      "details": "Gallery items scale h-72 on mobile to sm:h-80; Lightbox adapts viewport height h-[50vh] to sm:h-[60vh] with max-w-4xl.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "GALLERY-OVERFLOW-768",
+      "title": "Zero Horizontal Overflow at 768px",
+      "page": "/gallery",
+      "viewportWidth": 768,
+      "pass": true,
+      "details": "Gallery cards use relative w-full h-72 sm:h-80 with zero fixed overflowing dimensions.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "GALLERY-COLLAPSE-768",
+      "title": "Fluid Column Collapse at 768px (2 columns gallery cards)",
+      "page": "/gallery",
+      "viewportWidth": 768,
+      "pass": true,
+      "details": "Gallery grid scales cleanly: grid-cols-1 sm:grid-cols-2 lg:grid-cols-3.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "GALLERY-IMAGE-768",
+      "title": "Image Dimensions & Lightbox Responsiveness at 768px",
+      "page": "/gallery",
+      "viewportWidth": 768,
+      "pass": true,
+      "details": "Gallery items scale h-72 on mobile to sm:h-80; Lightbox adapts viewport height h-[50vh] to sm:h-[60vh] with max-w-4xl.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "GALLERY-OVERFLOW-1024",
+      "title": "Zero Horizontal Overflow at 1024px",
+      "page": "/gallery",
+      "viewportWidth": 1024,
+      "pass": true,
+      "details": "Gallery cards use relative w-full h-72 sm:h-80 with zero fixed overflowing dimensions.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "GALLERY-COLLAPSE-1024",
+      "title": "Fluid Column Collapse at 1024px (3 columns gallery cards)",
+      "page": "/gallery",
+      "viewportWidth": 1024,
+      "pass": true,
+      "details": "Gallery grid scales cleanly: grid-cols-1 sm:grid-cols-2 lg:grid-cols-3.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "GALLERY-IMAGE-1024",
+      "title": "Image Dimensions & Lightbox Responsiveness at 1024px",
+      "page": "/gallery",
+      "viewportWidth": 1024,
+      "pass": true,
+      "details": "Gallery items scale h-72 on mobile to sm:h-80; Lightbox adapts viewport height h-[50vh] to sm:h-[60vh] with max-w-4xl.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "GALLERY-OVERFLOW-1440",
+      "title": "Zero Horizontal Overflow at 1440px",
+      "page": "/gallery",
+      "viewportWidth": 1440,
+      "pass": true,
+      "details": "Gallery cards use relative w-full h-72 sm:h-80 with zero fixed overflowing dimensions.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "GALLERY-COLLAPSE-1440",
+      "title": "Fluid Column Collapse at 1440px (3 columns gallery cards)",
+      "page": "/gallery",
+      "viewportWidth": 1440,
+      "pass": true,
+      "details": "Gallery grid scales cleanly: grid-cols-1 sm:grid-cols-2 lg:grid-cols-3.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "GALLERY-IMAGE-1440",
+      "title": "Image Dimensions & Lightbox Responsiveness at 1440px",
+      "page": "/gallery",
+      "viewportWidth": 1440,
+      "pass": true,
+      "details": "Gallery items scale h-72 on mobile to sm:h-80; Lightbox adapts viewport height h-[50vh] to sm:h-[60vh] with max-w-4xl.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "CONTACT-OVERFLOW-320",
+      "title": "Zero Horizontal Overflow at 320px",
+      "page": "/contact",
+      "viewportWidth": 320,
+      "pass": true,
+      "details": "Google Maps iframe uses width=100%; inputs and textareas use w-full; padding px-4 buffers margins.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "CONTACT-COLLAPSE-320",
+      "title": "Fluid Column Collapse at 320px (1 column for layout, 1 column for form fields (phone/email, date/time))",
+      "page": "/contact",
+      "viewportWidth": 320,
+      "pass": true,
+      "details": "Contact page collapses to 1-col on mobile/tablet and expands to 5/7 split on lg (>=1024px); form fields stack on <640px.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "CONTACT-FORM-320",
+      "title": "Form Inputs & Validation Modal Sizing at 320px",
+      "page": "/contact",
+      "viewportWidth": 320,
+      "pass": true,
+      "details": "Form elements utilize w-full; validation modal is max-w-lg with p-6 sm:p-8 padding preventing horizontal cutoff.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "CONTACT-OVERFLOW-360",
+      "title": "Zero Horizontal Overflow at 360px",
+      "page": "/contact",
+      "viewportWidth": 360,
+      "pass": true,
+      "details": "Google Maps iframe uses width=100%; inputs and textareas use w-full; padding px-4 buffers margins.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "CONTACT-COLLAPSE-360",
+      "title": "Fluid Column Collapse at 360px (1 column for layout, 1 column for form fields (phone/email, date/time))",
+      "page": "/contact",
+      "viewportWidth": 360,
+      "pass": true,
+      "details": "Contact page collapses to 1-col on mobile/tablet and expands to 5/7 split on lg (>=1024px); form fields stack on <640px.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "CONTACT-FORM-360",
+      "title": "Form Inputs & Validation Modal Sizing at 360px",
+      "page": "/contact",
+      "viewportWidth": 360,
+      "pass": true,
+      "details": "Form elements utilize w-full; validation modal is max-w-lg with p-6 sm:p-8 padding preventing horizontal cutoff.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "CONTACT-OVERFLOW-375",
+      "title": "Zero Horizontal Overflow at 375px",
+      "page": "/contact",
+      "viewportWidth": 375,
+      "pass": true,
+      "details": "Google Maps iframe uses width=100%; inputs and textareas use w-full; padding px-4 buffers margins.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "CONTACT-COLLAPSE-375",
+      "title": "Fluid Column Collapse at 375px (1 column for layout, 1 column for form fields (phone/email, date/time))",
+      "page": "/contact",
+      "viewportWidth": 375,
+      "pass": true,
+      "details": "Contact page collapses to 1-col on mobile/tablet and expands to 5/7 split on lg (>=1024px); form fields stack on <640px.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "CONTACT-FORM-375",
+      "title": "Form Inputs & Validation Modal Sizing at 375px",
+      "page": "/contact",
+      "viewportWidth": 375,
+      "pass": true,
+      "details": "Form elements utilize w-full; validation modal is max-w-lg with p-6 sm:p-8 padding preventing horizontal cutoff.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "CONTACT-OVERFLOW-390",
+      "title": "Zero Horizontal Overflow at 390px",
+      "page": "/contact",
+      "viewportWidth": 390,
+      "pass": true,
+      "details": "Google Maps iframe uses width=100%; inputs and textareas use w-full; padding px-4 buffers margins.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "CONTACT-COLLAPSE-390",
+      "title": "Fluid Column Collapse at 390px (1 column for layout, 1 column for form fields (phone/email, date/time))",
+      "page": "/contact",
+      "viewportWidth": 390,
+      "pass": true,
+      "details": "Contact page collapses to 1-col on mobile/tablet and expands to 5/7 split on lg (>=1024px); form fields stack on <640px.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "CONTACT-FORM-390",
+      "title": "Form Inputs & Validation Modal Sizing at 390px",
+      "page": "/contact",
+      "viewportWidth": 390,
+      "pass": true,
+      "details": "Form elements utilize w-full; validation modal is max-w-lg with p-6 sm:p-8 padding preventing horizontal cutoff.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "CONTACT-OVERFLOW-414",
+      "title": "Zero Horizontal Overflow at 414px",
+      "page": "/contact",
+      "viewportWidth": 414,
+      "pass": true,
+      "details": "Google Maps iframe uses width=100%; inputs and textareas use w-full; padding px-4 buffers margins.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "CONTACT-COLLAPSE-414",
+      "title": "Fluid Column Collapse at 414px (1 column for layout, 1 column for form fields (phone/email, date/time))",
+      "page": "/contact",
+      "viewportWidth": 414,
+      "pass": true,
+      "details": "Contact page collapses to 1-col on mobile/tablet and expands to 5/7 split on lg (>=1024px); form fields stack on <640px.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "CONTACT-FORM-414",
+      "title": "Form Inputs & Validation Modal Sizing at 414px",
+      "page": "/contact",
+      "viewportWidth": 414,
+      "pass": true,
+      "details": "Form elements utilize w-full; validation modal is max-w-lg with p-6 sm:p-8 padding preventing horizontal cutoff.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "CONTACT-OVERFLOW-430",
+      "title": "Zero Horizontal Overflow at 430px",
+      "page": "/contact",
+      "viewportWidth": 430,
+      "pass": true,
+      "details": "Google Maps iframe uses width=100%; inputs and textareas use w-full; padding px-4 buffers margins.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "CONTACT-COLLAPSE-430",
+      "title": "Fluid Column Collapse at 430px (1 column for layout, 1 column for form fields (phone/email, date/time))",
+      "page": "/contact",
+      "viewportWidth": 430,
+      "pass": true,
+      "details": "Contact page collapses to 1-col on mobile/tablet and expands to 5/7 split on lg (>=1024px); form fields stack on <640px.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "CONTACT-FORM-430",
+      "title": "Form Inputs & Validation Modal Sizing at 430px",
+      "page": "/contact",
+      "viewportWidth": 430,
+      "pass": true,
+      "details": "Form elements utilize w-full; validation modal is max-w-lg with p-6 sm:p-8 padding preventing horizontal cutoff.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "CONTACT-OVERFLOW-768",
+      "title": "Zero Horizontal Overflow at 768px",
+      "page": "/contact",
+      "viewportWidth": 768,
+      "pass": true,
+      "details": "Google Maps iframe uses width=100%; inputs and textareas use w-full; padding px-4 buffers margins.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "CONTACT-COLLAPSE-768",
+      "title": "Fluid Column Collapse at 768px (1 column for layout, 2 columns for form fields)",
+      "page": "/contact",
+      "viewportWidth": 768,
+      "pass": true,
+      "details": "Contact page collapses to 1-col on mobile/tablet and expands to 5/7 split on lg (>=1024px); form fields stack on <640px.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "CONTACT-FORM-768",
+      "title": "Form Inputs & Validation Modal Sizing at 768px",
+      "page": "/contact",
+      "viewportWidth": 768,
+      "pass": true,
+      "details": "Form elements utilize w-full; validation modal is max-w-lg with p-6 sm:p-8 padding preventing horizontal cutoff.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "CONTACT-OVERFLOW-1024",
+      "title": "Zero Horizontal Overflow at 1024px",
+      "page": "/contact",
+      "viewportWidth": 1024,
+      "pass": true,
+      "details": "Google Maps iframe uses width=100%; inputs and textareas use w-full; padding px-4 buffers margins.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "CONTACT-COLLAPSE-1024",
+      "title": "Fluid Column Collapse at 1024px (12-col layout (5 cols clinic info / 7 cols form), 2 cols for form fields)",
+      "page": "/contact",
+      "viewportWidth": 1024,
+      "pass": true,
+      "details": "Contact page collapses to 1-col on mobile/tablet and expands to 5/7 split on lg (>=1024px); form fields stack on <640px.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "CONTACT-FORM-1024",
+      "title": "Form Inputs & Validation Modal Sizing at 1024px",
+      "page": "/contact",
+      "viewportWidth": 1024,
+      "pass": true,
+      "details": "Form elements utilize w-full; validation modal is max-w-lg with p-6 sm:p-8 padding preventing horizontal cutoff.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "CONTACT-OVERFLOW-1440",
+      "title": "Zero Horizontal Overflow at 1440px",
+      "page": "/contact",
+      "viewportWidth": 1440,
+      "pass": true,
+      "details": "Google Maps iframe uses width=100%; inputs and textareas use w-full; padding px-4 buffers margins.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "CONTACT-COLLAPSE-1440",
+      "title": "Fluid Column Collapse at 1440px (12-col layout (5 cols clinic info / 7 cols form), 2 cols for form fields)",
+      "page": "/contact",
+      "viewportWidth": 1440,
+      "pass": true,
+      "details": "Contact page collapses to 1-col on mobile/tablet and expands to 5/7 split on lg (>=1024px); form fields stack on <640px.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "CONTACT-FORM-1440",
+      "title": "Form Inputs & Validation Modal Sizing at 1440px",
+      "page": "/contact",
+      "viewportWidth": 1440,
+      "pass": true,
+      "details": "Form elements utilize w-full; validation modal is max-w-lg with p-6 sm:p-8 padding preventing horizontal cutoff.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "TOUCH-TARGET-320",
+      "title": "Interactive Elements Minimum Touch Target Height (>=44px) at 320px",
+      "page": "All Secondary Pages",
+      "viewportWidth": 320,
+      "pass": true,
+      "details": "All primary CTA buttons and form submit buttons use py-3.5 (48px) or py-4 (52px), comfortably exceeding Apple/W3C 44x44px minimum.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "TOUCH-TARGET-360",
+      "title": "Interactive Elements Minimum Touch Target Height (>=44px) at 360px",
+      "page": "All Secondary Pages",
+      "viewportWidth": 360,
+      "pass": true,
+      "details": "All primary CTA buttons and form submit buttons use py-3.5 (48px) or py-4 (52px), comfortably exceeding Apple/W3C 44x44px minimum.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "TOUCH-TARGET-375",
+      "title": "Interactive Elements Minimum Touch Target Height (>=44px) at 375px",
+      "page": "All Secondary Pages",
+      "viewportWidth": 375,
+      "pass": true,
+      "details": "All primary CTA buttons and form submit buttons use py-3.5 (48px) or py-4 (52px), comfortably exceeding Apple/W3C 44x44px minimum.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "TOUCH-TARGET-390",
+      "title": "Interactive Elements Minimum Touch Target Height (>=44px) at 390px",
+      "page": "All Secondary Pages",
+      "viewportWidth": 390,
+      "pass": true,
+      "details": "All primary CTA buttons and form submit buttons use py-3.5 (48px) or py-4 (52px), comfortably exceeding Apple/W3C 44x44px minimum.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "TOUCH-TARGET-414",
+      "title": "Interactive Elements Minimum Touch Target Height (>=44px) at 414px",
+      "page": "All Secondary Pages",
+      "viewportWidth": 414,
+      "pass": true,
+      "details": "All primary CTA buttons and form submit buttons use py-3.5 (48px) or py-4 (52px), comfortably exceeding Apple/W3C 44x44px minimum.",
+      "severity": "CRITICAL"
+    },
+    {
+      "id": "TOUCH-TARGET-430",
+      "title": "Interactive Elements Minimum Touch Target Height (>=44px) at 430px",
+      "page": "All Secondary Pages",
+      "viewportWidth": 430,
+      "pass": true,
+      "details": "All primary CTA buttons and form submit buttons use py-3.5 (48px) or py-4 (52px), comfortably exceeding Apple/W3C 44x44px minimum.",
+      "severity": "CRITICAL"
+    }
+  ]
+}
