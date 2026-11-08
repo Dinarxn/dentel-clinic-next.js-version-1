@@ -62,23 +62,23 @@ export function Navbar() {
             {/* Brand Logo */}
             <Link
               href="/"
-              className="group flex items-center gap-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C49A59] rounded-lg p-1"
+              className="group flex items-center gap-3 focus:outline-none focus-visible:ring-2 focus-visible:ring-[#C49A59] rounded-lg p-1 shrink-0"
             >
-              <div className="w-10 h-10 rounded-full bg-[#17324D] text-[#C49A59] border border-[#C49A59]/40 flex items-center justify-center shadow-inner group-hover:scale-105 transition-transform">
+              <div className="w-10 h-10 rounded-full bg-[#17324D] text-[#C49A59] border border-[#C49A59]/40 flex items-center justify-center shadow-inner group-hover:scale-105 transition-transform shrink-0">
                 <Sparkles className="w-5 h-5 text-[#C49A59]" />
               </div>
               <div className="flex flex-col">
-                <span className="font-serif text-lg sm:text-xl font-bold tracking-tight text-[#17324D] group-hover:text-[#C49A59] transition-colors leading-tight">
+                <span className="font-serif text-lg sm:text-xl font-bold tracking-tight text-[#17324D] group-hover:text-[#C49A59] transition-colors leading-tight whitespace-nowrap">
                   Lumière Dental Studio
                 </span>
-                <span className="text-[10px] tracking-[0.22em] uppercase font-semibold text-[#687789]">
+                <span className="text-[10px] tracking-[0.22em] uppercase font-semibold text-[#687789] whitespace-nowrap">
                   Bandra West • Mumbai
                 </span>
               </div>
             </Link>
 
             {/* Desktop Navigation Links */}
-            <nav className="hidden lg:flex items-center space-x-1 xl:space-x-2" aria-label="Main Navigation">
+            <nav className="hidden lg:flex items-center space-x-1 xl:space-x-2 shrink-0" aria-label="Main Navigation">
               {NAV_LINKS.map((link) => {
                 const isActive =
                   pathname === link.href ||
@@ -88,7 +88,7 @@ export function Navbar() {
                   <Link
                     key={link.href}
                     href={link.href}
-                    className={`px-3.5 py-1.5 rounded-full text-sm font-medium transition-all duration-200 ${
+                    className={`whitespace-nowrap px-3 py-1.5 rounded-full text-xs xl:text-sm font-medium transition-all duration-200 ${
                       isActive
                         ? 'text-[#17324D] font-semibold bg-[#C49A59]/15 border border-[#C49A59]/30'
                         : 'text-[#243244] hover:text-[#C49A59] hover:bg-[#17324D]/5'
@@ -101,22 +101,22 @@ export function Navbar() {
             </nav>
 
             {/* Desktop Actions (Direct Call via tel: + Book Appointment) */}
-            <div className="hidden md:flex items-center gap-3">
+            <div className="hidden md:flex items-center gap-2 xl:gap-3 shrink-0">
               <a
                 href={dialablePhone}
-                className="hidden xl:inline-flex items-center gap-2 text-xs font-semibold text-[#17324D] hover:text-[#C49A59] transition-colors py-2 px-3.5 rounded-full border border-[#E7E1D7] hover:border-[#C49A59] bg-white/70 shadow-2xs"
+                className="hidden xl:inline-flex items-center gap-2 text-xs font-semibold text-[#17324D] hover:text-[#C49A59] transition-colors py-2 px-3.5 rounded-full border border-[#E7E1D7] hover:border-[#C49A59] bg-white/70 shadow-2xs whitespace-nowrap shrink-0"
                 title={`Call ${clinicConfig.identity.phone.display}`}
               >
-                <Phone className="w-3.5 h-3.5 text-[#C49A59]" />
-                <span>{clinicConfig.identity.phone.display}</span>
+                <Phone className="w-3.5 h-3.5 text-[#C49A59] shrink-0" />
+                <span className="whitespace-nowrap">{clinicConfig.identity.phone.display}</span>
               </a>
 
               <Link
                 href="/contact"
-                className="inline-flex items-center gap-2 bg-[#C49A59] hover:bg-[#B08746] text-white text-xs sm:text-sm font-semibold px-4 sm:px-5 py-2.5 rounded-full shadow-sm hover:shadow-md transition-all duration-200 transform hover:-translate-y-0.5 active:translate-y-0"
+                className="inline-flex items-center gap-2 bg-[#C49A59] hover:bg-[#B08746] text-white text-xs sm:text-sm font-semibold px-4 sm:px-5 py-2.5 rounded-full shadow-sm hover:shadow-md transition-all duration-200 transform hover:-translate-y-0.5 active:translate-y-0 whitespace-nowrap shrink-0"
               >
-                <Calendar className="w-4 h-4" />
-                <span>Book Appointment</span>
+                <Calendar className="w-4 h-4 shrink-0" />
+                <span className="whitespace-nowrap">Book Appointment</span>
               </Link>
             </div>
 
