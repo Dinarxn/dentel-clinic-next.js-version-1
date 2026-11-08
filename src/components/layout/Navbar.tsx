@@ -36,16 +36,14 @@ export function Navbar() {
   return (
     <>
       {/* Top Demonstration Disclaimer Banner */}
-      <div className="bg-[#17324D] text-[#F7F5F0] border-b border-[#C49A59]/30 text-xs py-1.5 px-4 text-center tracking-wide font-medium flex flex-wrap items-center justify-center gap-2 leading-tight relative z-50">
-        <span className="inline-flex items-center gap-1.5 bg-[#C49A59]/20 text-[#C49A59] border border-[#C49A59]/40 rounded-full px-2.5 py-0.5 text-[10px] font-bold uppercase tracking-wider">
-          <Sparkles className="w-3 h-3 text-[#C49A59]" />
+      <div className="bg-[#17324D] text-[#F7F5F0] border-b border-[#C49A59]/30 text-[11px] sm:text-xs py-1 sm:py-1.5 px-3 sm:px-4 text-center tracking-wide font-medium flex items-center justify-center gap-1.5 sm:gap-2 leading-none relative z-50">
+        <span className="inline-flex items-center gap-1 bg-[#C49A59]/20 text-[#C49A59] border border-[#C49A59]/40 rounded-full px-2 py-0.5 text-[9px] sm:text-[10px] font-bold uppercase tracking-wider shrink-0">
+          <Sparkles className="w-2.5 h-2.5 sm:w-3 sm:h-3 text-[#C49A59]" />
           Demo Notice
         </span>
-        <span className="hidden sm:inline text-[#F7F5F0]/90">
-          {clinicConfig.demoDisclaimers.navbarBanner}
-        </span>
-        <span className="sm:hidden text-[#F7F5F0]/90">
-          Lumière Dental Studio • Demonstration Prototype Website
+        <span className="truncate text-[#F7F5F0]/90 text-[10px] sm:text-xs">
+          <span className="hidden sm:inline">{clinicConfig.demoDisclaimers.navbarBanner}</span>
+          <span className="sm:hidden">Lumière Dental Studio • Demonstration Prototype</span>
         </span>
       </div>
 
@@ -58,7 +56,7 @@ export function Navbar() {
         }`}
       >
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="h-20 flex items-center justify-between gap-4">
+          <div className="h-16 sm:h-20 flex items-center justify-between gap-2 lg:gap-4">
             {/* Brand Logo */}
             <Link
               href="/"

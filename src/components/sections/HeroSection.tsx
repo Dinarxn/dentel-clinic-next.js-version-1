@@ -16,87 +16,110 @@ export function HeroSection() {
     : `tel:${clinicConfig.identity.phone.dialable}`;
 
   return (
-    <section className="relative overflow-hidden bg-[#F7F5F0] pt-12 pb-20 md:pt-16 md:pb-28 border-b border-[#E7E1D7]">
+    <section className="relative overflow-hidden bg-[#F7F5F0] pt-6 pb-14 sm:pt-12 sm:pb-20 md:pt-16 md:pb-28 border-b border-[#E7E1D7]">
       {/* Subtle Background Architectural Gradients */}
       <div className="absolute top-0 right-0 w-96 h-96 bg-[#C49A59]/5 rounded-full blur-3xl pointer-events-none -mr-20 -mt-20" />
       <div className="absolute bottom-0 left-0 w-80 h-80 bg-[#17324D]/5 rounded-full blur-3xl pointer-events-none -ml-20 -mb-20" />
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
-        <div className="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+        <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-8 items-center">
           
-          {/* Left Column: Editorial Headline & Conversion CTAs (7 cols) */}
-          <div className="lg:col-span-7 space-y-6 sm:space-y-8 text-left">
+          {/* Left Column: Editorial Headline & Conversion CTAs */}
+          <div className="lg:col-span-7 space-y-4 sm:space-y-6 text-left">
             
             {/* Trust Pill / Location Badge */}
-            <div className="inline-flex items-center gap-2 px-3.5 py-1.5 rounded-full bg-[#C49A59]/15 border border-[#C49A59]/30 text-[#17324D] text-xs font-semibold tracking-wider uppercase">
-              <Sparkles className="w-3.5 h-3.5 text-[#C49A59]" />
+            <div className="inline-flex items-center gap-1.5 sm:gap-2 px-3 py-1 sm:px-3.5 sm:py-1.5 rounded-full bg-[#C49A59]/15 border border-[#C49A59]/30 text-[#17324D] text-[10px] sm:text-xs font-semibold tracking-wider uppercase">
+              <Sparkles className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-[#C49A59] shrink-0" />
               <span>Boutique Dental Atelier • Bandra West, Mumbai</span>
             </div>
 
-            {/* Main Editorial Headline in Playfair Display */}
-            <h1 className="font-serif text-4xl sm:text-5xl lg:text-6xl text-[#17324D] font-bold tracking-tight leading-[1.12]">
-              Artistry Meets Biological Precision in Modern Dental Care
+            {/* Main Editorial Headline */}
+            <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl xl:text-6xl text-[#17324D] font-bold tracking-tight leading-[1.18] sm:leading-[1.12]">
+              Confident Smiles Begin With Exceptional Dental Care.
             </h1>
 
+            {/* Mobile-Only Prominent Clinic Photography */}
+            <div className="lg:hidden my-4 relative rounded-2xl overflow-hidden aspect-[16/10] bg-[#17324D] shadow-md border border-[#E7E1D7]">
+              <Image
+                src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=85"
+                alt="Lumière Dental Studio Operatory Suite with Natural Sunlight on Turner Road Bandra West"
+                fill
+                priority
+                sizes="(max-width: 1024px) 100vw, 40vw"
+                className="object-cover"
+              />
+              <div className="absolute inset-0 bg-gradient-to-t from-[#17324D]/85 via-black/20 to-transparent pointer-events-none" />
+              <div className="absolute bottom-3 left-3 right-3 p-2.5 rounded-xl bg-[#17324D]/80 backdrop-blur-sm border border-[#C49A59]/30 text-white">
+                <p className="text-[10px] uppercase tracking-widest text-[#E8D3B0] font-semibold">
+                  Private Atelier Suite
+                </p>
+                <p className="font-serif text-sm font-bold text-white leading-tight">
+                  Designed for Complete Psychological Calm
+                </p>
+                <p className="text-[10px] text-[#F7F5F0]/80">
+                  Zeiss Optics • Swiss 3D CBCT • Acoustic Isolation
+                </p>
+              </div>
+            </div>
+
             {/* Philosophy Subtext */}
-            <p className="text-lg sm:text-xl text-[#243244] leading-relaxed max-w-2xl font-normal">
-              Experience serene, unhurried dentistry on Turner Road. Guided by lead prosthodontist{' '}
-              <strong className="font-semibold text-[#17324D]">{clinicConfig.doctor.name}</strong>, we harmonize
-              facial aesthetics with sub-millimeter microscopic preservation.
+            <p className="text-sm sm:text-lg text-[#243244] leading-relaxed max-w-2xl font-normal">
+              Experience thoughtful, modern dental care designed around your comfort, confidence and long-term oral health. Guided by lead prosthodontist{' '}
+              <strong className="font-semibold text-[#17324D]">{clinicConfig.doctor.name}</strong> on Turner Road.
             </p>
 
-            {/* Primary & Secondary CTAs + Quick Dialer */}
-            <div className="flex flex-wrap items-center gap-4 pt-2">
+            {/* Primary & Secondary CTAs */}
+            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-1 sm:pt-2">
               {/* Primary CTA: Book Consultation */}
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full bg-[#C49A59] hover:bg-[#B08746] text-white font-medium text-base shadow-md hover:shadow-lg transition-all duration-200 group"
+                className="inline-flex items-center justify-center gap-2 px-6 py-3 sm:px-7 sm:py-3.5 rounded-full bg-[#C49A59] hover:bg-[#B08746] text-white font-semibold text-sm sm:text-base shadow-md hover:shadow-lg transition-all duration-200 group text-center"
               >
-                <span>Book Consultation</span>
+                <span>Book an Appointment</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
               </Link>
 
-              {/* Secondary CTA: Explore Disciplines */}
+              {/* Secondary CTA: Explore Treatments */}
               <Link
                 href="/treatments"
-                className="inline-flex items-center justify-center px-7 py-3.5 rounded-full border border-[#17324D]/30 bg-white hover:bg-[#17324D] text-[#17324D] hover:text-white font-medium text-base transition-all duration-200"
+                className="inline-flex items-center justify-center px-6 py-3 sm:px-7 sm:py-3.5 rounded-full border border-[#17324D]/30 bg-white hover:bg-[#17324D] text-[#17324D] hover:text-white font-semibold text-sm sm:text-base transition-all duration-200 text-center"
               >
-                Explore Disciplines
+                Explore Treatments
               </Link>
 
-              {/* Quick Dialer Link */}
+              {/* Quick Dialer Link (Desktop/Tablet) */}
               <a
                 href={dialablePhone}
-                className="inline-flex items-center gap-2 px-4 py-3 rounded-full text-sm font-semibold text-[#17324D] hover:text-[#C49A59] transition-colors"
+                className="hidden sm:inline-flex items-center gap-2 px-4 py-2.5 rounded-full text-xs sm:text-sm font-semibold text-[#17324D] hover:text-[#C49A59] transition-colors"
                 title={`Call ${clinicConfig.identity.phone.display}`}
               >
-                <div className="w-8 h-8 rounded-full bg-[#C49A59]/15 flex items-center justify-center text-[#C49A59]">
-                  <Phone className="w-4 h-4" />
+                <div className="w-7 h-7 rounded-full bg-[#C49A59]/15 flex items-center justify-center text-[#C49A59]">
+                  <Phone className="w-3.5 h-3.5" />
                 </div>
                 <span>{clinicConfig.identity.phone.display}</span>
               </a>
             </div>
 
             {/* 3 Luxury Trust Pills */}
-            <div className="pt-6 border-t border-[#E7E1D7] flex flex-wrap items-center gap-3 text-xs font-semibold text-[#17324D]">
-              <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white border border-[#E7E1D7] shadow-xs">
-                <MapPin className="w-3.5 h-3.5 text-[#C49A59]" />
-                <span>Bandra West, Mumbai</span>
+            <div className="pt-4 sm:pt-6 border-t border-[#E7E1D7] grid grid-cols-3 gap-2 sm:flex sm:flex-wrap sm:items-center sm:gap-3 text-[10px] sm:text-xs font-semibold text-[#17324D]">
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-1.5 p-2 sm:px-3 sm:py-1.5 rounded-lg bg-white border border-[#E7E1D7] shadow-2xs text-center">
+                <MapPin className="w-3.5 h-3.5 text-[#C49A59] shrink-0" />
+                <span className="truncate">Bandra West</span>
               </div>
-              <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white border border-[#E7E1D7] shadow-xs">
-                <Award className="w-3.5 h-3.5 text-[#C49A59]" />
-                <span>Bespoke Prosthodontics</span>
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-1.5 p-2 sm:px-3 sm:py-1.5 rounded-lg bg-white border border-[#E7E1D7] shadow-2xs text-center">
+                <Award className="w-3.5 h-3.5 text-[#C49A59] shrink-0" />
+                <span className="truncate">12+ Years Care</span>
               </div>
-              <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white border border-[#E7E1D7] shadow-xs">
-                <ShieldCheck className="w-3.5 h-3.5 text-[#C49A59]" />
-                <span>Hospital-Grade Sterilization</span>
+              <div className="flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-1.5 p-2 sm:px-3 sm:py-1.5 rounded-lg bg-white border border-[#E7E1D7] shadow-2xs text-center">
+                <ShieldCheck className="w-3.5 h-3.5 text-[#C49A59] shrink-0" />
+                <span className="truncate">Hospital Sterilized</span>
               </div>
             </div>
 
           </div>
 
-          {/* Right Column: Hero Dental Imagery & Architectural Showcase (5 cols) */}
-          <div className="lg:col-span-5 relative">
+          {/* Right Column: Hero Dental Imagery for Desktop (5 cols) */}
+          <div className="hidden lg:block lg:col-span-5 relative">
             <div className="relative mx-auto max-w-md lg:max-w-none">
               
               {/* Double-Bezel Framed Showcase Card */}
