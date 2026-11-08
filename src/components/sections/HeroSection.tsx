@@ -25,21 +25,21 @@ export function HeroSection() {
         <div className="grid grid-cols-1 lg:grid-cols-12 gap-8 lg:gap-8 items-center">
           
           {/* Left Column: Editorial Headline & Conversion CTAs */}
-          <div className="lg:col-span-7 space-y-4 sm:space-y-6 text-left">
+          <div className="lg:col-span-7 space-y-5 sm:space-y-6 text-center lg:text-left flex flex-col items-center lg:items-start">
             
             {/* Trust Pill / Location Badge */}
-            <div className="inline-flex items-center gap-1.5 sm:gap-2 px-3 py-1 sm:px-3.5 sm:py-1.5 rounded-full bg-[#C49A59]/15 border border-[#C49A59]/30 text-[#17324D] text-[10px] sm:text-xs font-semibold tracking-wider uppercase">
-              <Sparkles className="w-3 h-3 sm:w-3.5 sm:h-3.5 text-[#C49A59] shrink-0" />
+            <div className="inline-flex items-center gap-1.5 sm:gap-2 px-3.5 py-1.5 rounded-full bg-[#C49A59]/15 border border-[#C49A59]/30 text-[#17324D] text-[11px] sm:text-xs font-semibold tracking-wider uppercase mx-auto lg:mx-0 shadow-2xs">
+              <Sparkles className="w-3.5 h-3.5 text-[#C49A59] shrink-0" />
               <span>Boutique Dental Atelier • Bandra West, Mumbai</span>
             </div>
 
             {/* Main Editorial Headline */}
-            <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl xl:text-6xl text-[#17324D] font-bold tracking-tight leading-[1.18] sm:leading-[1.12]">
+            <h1 className="font-serif text-3xl sm:text-4xl lg:text-5xl xl:text-6xl text-[#17324D] font-bold tracking-tight leading-[1.18] sm:leading-[1.12] text-center lg:text-left max-w-2xl">
               Confident Smiles Begin With Exceptional Dental Care.
             </h1>
 
             {/* Mobile-Only Prominent Clinic Photography */}
-            <div className="lg:hidden my-4 relative rounded-2xl overflow-hidden aspect-[16/10] bg-[#17324D] shadow-md border border-[#E7E1D7]">
+            <div className="w-full max-w-md lg:hidden my-3 relative rounded-2xl overflow-hidden aspect-[16/10] bg-[#17324D] shadow-md border border-[#E7E1D7] mx-auto">
               <Image
                 src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?auto=format&fit=crop&w=800&q=85"
                 alt="Lumière Dental Studio Operatory Suite with Natural Sunlight on Turner Road Bandra West"
@@ -49,7 +49,7 @@ export function HeroSection() {
                 className="object-cover"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-[#17324D]/85 via-black/20 to-transparent pointer-events-none" />
-              <div className="absolute bottom-3 left-3 right-3 p-2.5 rounded-xl bg-[#17324D]/80 backdrop-blur-sm border border-[#C49A59]/30 text-white">
+              <div className="absolute bottom-3 left-3 right-3 p-2.5 rounded-xl bg-[#17324D]/80 backdrop-blur-sm border border-[#C49A59]/30 text-white text-center">
                 <p className="text-[10px] uppercase tracking-widest text-[#E8D3B0] font-semibold">
                   Private Atelier Suite
                 </p>
@@ -63,17 +63,17 @@ export function HeroSection() {
             </div>
 
             {/* Philosophy Subtext */}
-            <p className="text-sm sm:text-lg text-[#243244] leading-relaxed max-w-2xl font-normal">
+            <p className="text-sm sm:text-lg text-[#243244] leading-relaxed max-w-2xl font-normal text-center lg:text-left mx-auto lg:mx-0">
               Experience thoughtful, modern dental care designed around your comfort, confidence and long-term oral health. Guided by lead prosthodontist{' '}
               <strong className="font-semibold text-[#17324D]">{clinicConfig.doctor.name}</strong> on Turner Road.
             </p>
 
-            {/* Primary & Secondary CTAs */}
-            <div className="flex flex-col sm:flex-row items-stretch sm:items-center gap-3 pt-1 sm:pt-2">
+            {/* Primary & Secondary CTAs - Centered on Mobile */}
+            <div className="w-full max-w-md sm:max-w-none flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-3 pt-2 mx-auto lg:mx-0">
               {/* Primary CTA: Book Consultation */}
               <Link
                 href="/contact"
-                className="inline-flex items-center justify-center gap-2 px-6 py-3 sm:px-7 sm:py-3.5 rounded-full bg-[#C49A59] hover:bg-[#B08746] text-white font-semibold text-sm sm:text-base shadow-md hover:shadow-lg transition-all duration-200 group text-center"
+                className="w-full sm:w-auto inline-flex items-center justify-center gap-2 px-7 py-3.5 rounded-full bg-[#C49A59] hover:bg-[#B08746] text-white font-semibold text-sm sm:text-base shadow-md hover:shadow-lg transition-all duration-200 group text-center"
               >
                 <span>Book an Appointment</span>
                 <ArrowRight className="w-4 h-4 group-hover:translate-x-1 transition-transform" />
@@ -82,7 +82,7 @@ export function HeroSection() {
               {/* Secondary CTA: Explore Treatments */}
               <Link
                 href="/treatments"
-                className="inline-flex items-center justify-center px-6 py-3 sm:px-7 sm:py-3.5 rounded-full border border-[#17324D]/30 bg-white hover:bg-[#17324D] text-[#17324D] hover:text-white font-semibold text-sm sm:text-base transition-all duration-200 text-center"
+                className="w-full sm:w-auto inline-flex items-center justify-center px-7 py-3.5 rounded-full border border-[#17324D]/30 bg-white hover:bg-[#17324D] text-[#17324D] hover:text-white font-semibold text-sm sm:text-base transition-all duration-200 text-center shadow-2xs"
               >
                 Explore Treatments
               </Link>
@@ -90,7 +90,7 @@ export function HeroSection() {
               {/* Quick Dialer Link (Desktop/Tablet) */}
               <a
                 href={dialablePhone}
-                className="hidden sm:inline-flex items-center gap-2 px-4 py-2.5 rounded-full text-xs sm:text-sm font-semibold text-[#17324D] hover:text-[#C49A59] transition-colors"
+                className="hidden xl:inline-flex items-center gap-2 px-4 py-2.5 rounded-full text-xs sm:text-sm font-semibold text-[#17324D] hover:text-[#C49A59] transition-colors"
                 title={`Call ${clinicConfig.identity.phone.display}`}
               >
                 <div className="w-7 h-7 rounded-full bg-[#C49A59]/15 flex items-center justify-center text-[#C49A59]">
@@ -100,19 +100,19 @@ export function HeroSection() {
               </a>
             </div>
 
-            {/* 3 Luxury Trust Pills */}
-            <div className="pt-4 sm:pt-6 border-t border-[#E7E1D7] grid grid-cols-3 gap-2 sm:flex sm:flex-wrap sm:items-center sm:gap-3 text-[10px] sm:text-xs font-semibold text-[#17324D]">
-              <div className="flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-1.5 p-2 sm:px-3 sm:py-1.5 rounded-lg bg-white border border-[#E7E1D7] shadow-2xs text-center">
+            {/* 3 Luxury Trust Pills - Centered on Mobile */}
+            <div className="w-full pt-4 sm:pt-6 border-t border-[#E7E1D7] flex flex-wrap items-center justify-center lg:justify-start gap-2 sm:gap-3 text-[10px] sm:text-xs font-semibold text-[#17324D]">
+              <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white border border-[#E7E1D7] shadow-2xs">
                 <MapPin className="w-3.5 h-3.5 text-[#C49A59] shrink-0" />
-                <span className="truncate">Bandra West</span>
+                <span>Bandra West</span>
               </div>
-              <div className="flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-1.5 p-2 sm:px-3 sm:py-1.5 rounded-lg bg-white border border-[#E7E1D7] shadow-2xs text-center">
+              <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white border border-[#E7E1D7] shadow-2xs">
                 <Award className="w-3.5 h-3.5 text-[#C49A59] shrink-0" />
-                <span className="truncate">12+ Years Care</span>
+                <span>12+ Years Care</span>
               </div>
-              <div className="flex flex-col sm:flex-row items-center justify-center gap-1 sm:gap-1.5 p-2 sm:px-3 sm:py-1.5 rounded-lg bg-white border border-[#E7E1D7] shadow-2xs text-center">
+              <div className="inline-flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-white border border-[#E7E1D7] shadow-2xs">
                 <ShieldCheck className="w-3.5 h-3.5 text-[#C49A59] shrink-0" />
-                <span className="truncate">Hospital Sterilized</span>
+                <span>Hospital Sterilized</span>
               </div>
             </div>
 
